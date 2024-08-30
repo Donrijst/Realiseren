@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*----Styling pagina---*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    width: 25%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+.content {
+    display: flex;
+    width: 75%;
+    height: auto;
+    flex-direction: column;
+}
+
+h3 {
+    display: flex;
+    margin: 15px;
+}
