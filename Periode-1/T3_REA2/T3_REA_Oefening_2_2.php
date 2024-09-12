@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>uitwerking</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 
@@ -26,8 +26,8 @@
             "<ul>" .
                     "<li>" .
                         "<h2> Hoofdstuk 2</h2>" .
-                        '<li a href="#">Oefening 2.1</li>' .
-                        '<li a href="#">Oefening 2.2</li>' .
+                        '<li><a href="#">Oefening 2.1</a></li>' .
+                        '<li><a href="..">Oefening 2.2</a></li>' .
                     "</li>" .
                 "</ul>" .
             "</div>" .
