@@ -24,6 +24,7 @@ main {
     width: 25%;
     height: auto;
     background-color: antiquewhite;
+    align-content: center;
 }
 
 .content {
