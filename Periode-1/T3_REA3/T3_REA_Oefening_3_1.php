@@ -20,6 +20,9 @@
     $bon2 = 45.76;
     $bon3 = 78.34;
 
+    $totaal = $bon1+$bon2+$bon3;
+
+    $kostenpp = ($totaal) / 3;
 ?>
 
 <!DOCTYPE html>
@@ -34,38 +37,45 @@
 
 <body>
     <?php
-    //header
-    echo '<div class="header">' . 
+        echo '<div class="header">' . 
         "<h1>Uitwerking van PHP-oefeningen</h1>" .
-    "</div>" .
-
-    //navbar
-    "<main>" .
-        '<div class="nav">' .
-            "<h2>Thema 3</h2>" .
-
-            "<ul>" .
-                "<li>" .
-                    "<h2> Hoofdstuk 2</h2>" .
-                        "<ul>" .
-                            "<li><a href='../T3_REA2/T3_REA_Oefening_2_2.php'>Oefening 2.2</a></li>" .
-                        "</ul>" .
-                "</li>" .
-            "</ul>" .
         "</div>" .
 
-        //pakt de tekst uit de $story variabele in een p element
-        '<div class="content">' .
-            '<br>' .
-                '<h2>Uitwerking oefening 3.1</h2>' .
-            '<br>' .
-                '<h3>Taak 1--------------</h3>' .
-                "<p>{$story}</p>" .
-            '<br>' .
-                '<h3>Taak 2--------------</h3>' .
+        "<main>" .
+            '<div class="nav">' .
+                "<h2>Thema 3</h2>" .
+    
+                "<ul>" .
+                    "<li>" .
+                        "<h2> Hoofdstuk 2</h2>" .
+                            "<ul>" .
+                                "<li><a href='../T3_REA2/T3_REA_Oefening_2_2.php'>Oefening 2.2</a></li>" .
+                            "</ul>" .
+                    "</li>" .
+    
+                    "<li>" .
+                        "<h2> Hoofdstuk 3</h2>" .
+                            "<ul>" .
+                                "<li><a href='../T3_REA3/T3_REA_Oefening_3_1.php'>Oefening 3.1</a></li>" .
+                            "</ul>" .
+                    "</li>" .
+                "</ul>" .
+            "</div>" .  
 
-        "</div>" .
-    "</main>";
+            //pakt de tekst uit de $story variabele in een p element
+            '<div class="content">' .
+                '<br>' .
+                    '<h2>Uitwerking oefening 3.1</h2>' .
+                '<br>' .
+                    '<h3>Taak 1--------------</h3>' .
+                    "<p>{$story}</p>" .
+                '<br>' .
+                    '<h3>Taak 2--------------</h3>' .
+                '<br>' .
+                    "<p>Totale kosten: {$totaal}</p>" .
+                    "<p>Kosten per persoon: {$kostenpp}</p>" .
+            "</div>" .
+        "</main>";
     ?>
 </body>
 
