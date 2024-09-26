@@ -27,14 +27,14 @@
                     "<li>" .
                         "<h2> Hoofdstuk 2</h2>" .
                             "<ul>" .
-                                "<li><a href='../T3_REA2/T3_REA_Oefening_2_2.php'>Oefening 2.2</a></li>" .
+                                "<li><a href='../hoofdstuk2/T3_REA_Oefening_2_2.php'>Oefening 2.2</a></li>" .
                             "</ul>" .
                     "</li>" .
 
                     "<li>" .
                         "<h2> Hoofdstuk 3</h2>" .
                             "<ul>" .
-                                "<li><a href='../T3_REA3/T3_REA_Oefening_3_1.php'>Oefening 3.1</a></li>" .
+                                "<li><a href='../hoofdstuk3/T3_REA_Oefening_3_1.php'>Oefening 3.1</a></li>" .
                             "</ul>" .
                     "</li>" .
                 "</ul>" .
@@ -53,7 +53,7 @@ WIJ KUNNEN EEN RT-2PM2 <<TOPOL-M>>CODE DRIE-TRAPS VASTE BRANDSTOF SILO-GEBASEERD
 
 MAAR ALS JE EEN BEGINNER BENT, KUN JE EEN BGM-71 TOW ANTI-TANKRAKET LANCEREN VANUIT EEN M-3 BRADLEY CAVALERIE GEVECHTSVOERTUIG OP RUPSBANDEN.
 
-NU VOORZICHTIG MANOEUVREREN, WANT ONZE ATGM GAAT OVER HET BORD.
+NU VOORZICHTIG MANOEUVRWEREN, ANT ONZE ATGM GAAT OVER HET BORD.
 
 DUS, DIT BETEKENT IN WEZEN DAT NA KONING NEEMT LOPER, ONZE DAME HUN DAME NEEMT.</p>' .
             '</div>' .

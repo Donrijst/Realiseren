@@ -5,43 +5,20 @@
     
     KW1C instructie:    Resultaat opdracht 3.2 thema 2
 -->
-<html lang="en-us">
-    <head>
-        <title>
-            Responsive 2
-        </title>
-        <meta charset="UTF-8" >
-        <meta name="viewport" content="width=device-width initial-scale=1">
-        <script src="../scripts/scriptpages.js" defer></script>
-        <!-- nieuwe style -->
-        <link rel="stylesheet" href="../styles/stylesheet.css">
-    </head>          
-    
-    <body>
-
-        <header>
-            <h1><a href="../index.php">Al Pacino</a></h1>
-            <h3>...in zijn rollen als gangster</h3>
-        </header>
-
-        <main>
-            <nav>
-                <ul id="menu_list_pages">
-                    menulijst loading . . .                   
-                </ul>
-            </nav>
+    <?php
         
+    ?>
             <article>
-                <h2>The Godfather</h2>
-                <p id="pargodfather">
-                    <img id="godfather" src="../images/godfatherfingers.PNG" alt="Fingers">
+                <h2>Donnie Brasco</h2>
+                <p>
+                    <img id="donniebrasco" src="../images/donniebrasco.PNG" alt="Donnie">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et lectus a risus semper semper nec non lectus. Ut ac pulvinar lectus. Donec rhoncus rutrum tincidunt. Vivamus gravida sed arcu scelerisque dapibus. Sed porta laoreet nulla a consequat. Phasellus mattis, urna in interdum iaculis, sem eros fringilla odio, vel elementum libero nisi placerat urna. Nullam faucibus dui vitae eros lacinia, quis vulputate libero sagittis. 
                     
                 </p>
             </article>
 
             <aside>
-                <h2>Michael Corleone</h2>
+                <h1><a href="../index.htm">Al Pacino</a></h1>
                 <p>
                     Na de dood van Don Vito Corleone wordt Michael de nieuwe Don...<br><a href="https://www.imdb.com/title/tt0071562/?ref_=fn_al_tt_2" target="_blank">(lees verder)</a>
                 </p>
@@ -68,5 +45,6 @@
                 &copy; Rob JM Wessels                
             </p>
         </footer>
+
     </body>
 </html>

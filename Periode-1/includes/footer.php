@@ -1,7 +1,8 @@
 <?php
-    echo '<div class="footer">' . 
-            "<h3>Einde van de voorstelling</h3>" . 
-        "</div>";
+    echo 
+            '<div class="footer">' . 
+                "<h3>Einde van de voorstelling</h3>" . 
+            "</div>";
 ?>
 
 <style>

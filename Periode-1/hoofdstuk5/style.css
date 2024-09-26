@@ -1,0 +1,38 @@
+form {
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.form-container h2 {
+    text-align: center;
+}
+label, select, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin: 20px;
+}
