@@ -36,9 +36,9 @@
         <div class="content">
             <h2>Oefening 5.1</h2>
             <br>
-                <form action="oefening5.1-resultaat.php" method="POST">
-                    <label for="fullname">Voor en achternaam</label>
-                    <input type="text" id="fullname" name="fullname">
+                <form action="oefening5.1-resultaat.php" method="GET">
+                    <label for="naam">Voor en achternaam</label>
+                    <input type="text" id="naam" name="naam">
         
                     <label for="studentnummer">Studentennummer</label>
                     <input type="text" id="studentnummer" name="studentnummer">
@@ -55,11 +55,11 @@
                     </select>
         
                     <label>Leerjaar</label>
-                    <input type="radio" id="jaar1" name="leerjaar" value="1ste jaar">
+                    <input type="radio" id="leerjaar1" name="leerjaar" value="1ste jaar">
                     <label for="jaar1">1e leerjaar</label>
-                    <input type="radio" id="jaar3" name="leerjaar" value="2de jaar">
+                    <input type="radio" id="leerjaar2" name="leerjaar" value="2de jaar">
                     <label for="jaar2">2e leerjaar</label>
-                    <input type="radio" id="jaar3" name="leerjaar" value="3de jaar">
+                    <input type="radio" id="leerjaar3" name="leerjaar" value="3de jaar">
                     <label for="jaar3">3e leerjaar</label>
         
                     <input type="checkbox" id="overgaan" name="overgaan">
