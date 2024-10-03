@@ -1,9 +1,10 @@
-<?php
-    echo 
-            '<div class="footer">' . 
-                "<h3>Einde van de voorstelling</h3>" . 
-            "</div>";
-?>
+    </div>
+</div>
+    <div class="footer">
+        <h3>Einde van Jesse</h3>
+    </div>
+</body>
+</html>
 
 <style>
     .footer {

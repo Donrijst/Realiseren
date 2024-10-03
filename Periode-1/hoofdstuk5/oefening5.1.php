@@ -9,31 +9,9 @@
         $verwijder = $_POST['verwijder'];
         $reden = $_POST['reden'];
     }
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>epic form</title>
-    <link rel="stylesheet" href="../includes/style.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <?php
             include "../includes/header.php";
-        ?>
-    </header>
-
-    <main>
-        <?php
             include "../includes/nav.php";
-                
-        ?>
-
-        <div class="content">
+?>
             <h2>Oefening 5.1</h2>
             <br>
                 <form action="oefening5.1-resultaat.php" method="GET">
@@ -73,13 +51,7 @@
         
                     <input type="submit" value="klaar">
                 </form>       
-        </div>
-    </main>
 
-    <footer>
         <?php
             include "../includes/footer.php";
         ?>
-    </footer>
-</body>
-</html>

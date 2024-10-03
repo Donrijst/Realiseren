@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- 
     Auteur:             Rob JM Wessels
     Aanmaakdatum:       dec 2020
