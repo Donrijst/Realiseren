@@ -3,11 +3,8 @@
     // Is er een POST value "txtUsername" opgegeven?
     if( isset($_POST["txtUsername"]) == true)
     {
-        //  opdracht 1: Programmeer hieronder (via cookieset) een cookie met de volgende eisen:
-        //   Expiration date: over 356 dagen (1 jaar)
-        //   Naam: userUsernameCookie
-        //   Value: $_POST["txtUsername"]
-		//   Path:  "/"
+        $newAmount = $_COOKIE["userCountCookie"] + 1;
+        setcookie("userCountCookie", $newAmount, time() + 3600 * 24 * 365, "/");
     }
     else
     {
