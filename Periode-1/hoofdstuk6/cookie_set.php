@@ -5,6 +5,7 @@
     {
         $newAmount = $_COOKIE["userCountCookie"] + 1;
         setcookie("userCountCookie", $newAmount, time() + 3600 * 24 * 365, "/");
+        header("oefening6.1.php");
     }
     else
     {
@@ -20,6 +21,9 @@
         //   Naam: userCountryCode
         //   Value: $_POST["selCountry"]
 		//   Path: "/"
+        $country = $_POST["selCountry"];
+        setcookie("userCountryCode", $country, time() + 3600 * 24 * 365, "/");
+        header("oefening6.1.php");
     }
     else
     {
@@ -27,6 +31,7 @@
         header("oefening6.1.php");
     }
 
+    header("oefening6.1.php");
     // Stuur een gebruiker door naar de index pagina!
     // header("Location: /T3_REA_Oefeningen/index.php");
 

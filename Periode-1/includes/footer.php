@@ -2,6 +2,21 @@
 </div>
     <div class="footer">
         <h3>Einde van Jesse</h3>
+        <p>
+            <?php
+                if(isset($_COOKIE["userCountryCode"]) == true) {
+                    $countryCode = $_COOKIE["userCountryCode"];
+                    echo "<img src='../images/flags/$countryCode.png'>";
+                } else {
+                    echo "<a href='../hoofdstuk6/oefening6.1.php'>Geef een land op</a>";
+                }
+            ?>
+            |
+
+            <?php
+                if(isset($_COOKIE))
+            ?>
+        </p>
     </div>
 </body>
 </html>
